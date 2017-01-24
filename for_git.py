@@ -57,5 +57,11 @@ strengur=input("Sláðu inn texta: ")
 #geri teljara til hér fyrir for lykkju
 lastafir=0
 hastafir=0
+laeftirha=0
 #fer í gegnum streng og finn hástafi,lástafi og lástafi eftir hástöfum
 for stak in strengur:
+    if stak.islower():
+        lastafir=lastafir+1
+    elif stak.isupper():
+        hastafir=hastafir+1
+    elif 
