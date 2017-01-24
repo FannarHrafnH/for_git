@@ -38,3 +38,10 @@
 #spyr notenda um tvær tölur
 tala1=int(input("Sláðu inn tölu 1: "))
 tala2=int(input("Sláðu inn tölu 2: "))
+#reikna summu
+tala3=tala1+tala2
+#reikna margfeldi
+tala4=tala1*tala2
+#prenta niðurstöður
+print("Summa talna er:",tala3,)
+print("Margfeldi talna er:",tala4)
