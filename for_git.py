@@ -59,9 +59,12 @@ lastafir=0
 hastafir=0
 laeftirha=0
 #fer í gegnum streng og finn hástafi,lástafi og lástafi eftir hástöfum
-for stak in strengur:
-    if stak.islower():
+for x in range(len(strengur)):
+    if strengur[x].islower():
         lastafir=lastafir+1
-    elif stak.isupper():
+    elif strengur[x].isupper():
         hastafir=hastafir+1
-    elif 
+        if strengur[x+1].islower():
+            laeftirha=laeftirha+1
+#prenta nuiðurstöður
+print("Í þessum texta eru",hastafir,"hástafir,",lastafir,"lágstafir og",laeftirha,"lágstafir eftir hástaf")
