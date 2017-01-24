@@ -45,3 +45,9 @@ tala4=tala1*tala2
 #prenta niðurstöður
 print("Summa talna er:",tala3,)
 print("Margfeldi talna er:",tala4)
+#Liður 2
+#Spyr notanda um fornafn og eftirnafn
+fornafn=input("Fornafn?: ")
+eftirnafn=input("Eftirnafn: ")
+#prenta halló
+print("Halló",fornafn,eftirnafn)
