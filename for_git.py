@@ -51,3 +51,11 @@ fornafn=input("Fornafn?: ")
 eftirnafn=input("Eftirnafn: ")
 #prenta halló
 print("Halló",fornafn,eftirnafn)
+#Liður 3
+#spyr notanda um texta
+strengur=input("Sláðu inn texta: ")
+#geri teljara til hér fyrir for lykkju
+lastafir=0
+hastafir=0
+#fer í gegnum streng og finn hástafi,lástafi og lástafi eftir hástöfum
+for stak in strengur:
